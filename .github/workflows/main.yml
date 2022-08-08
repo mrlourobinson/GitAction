@@ -1,6 +1,8 @@
 name: random-num-generator 
 
-on: [workflow_dispatch]
+on:
+  schedule:
+    - cron: '0/5 * * * *' # runs at 12:00 UTC everyday
 
 jobs:
   build:
