@@ -2,7 +2,7 @@ name: random-num-generator
 
 on:
   schedule:
-    - cron: '0/5 * * * *' # runs at 12:00 UTC everyday
+    - cron: '*/5 * * * *' # runs at 12:00 UTC everyday
 
 jobs:
   build:
