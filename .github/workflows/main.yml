@@ -1,8 +1,8 @@
-name: scraper-san-juan-gobierno
+name: random-num-generator 
 
 on:
   schedule:
-    - cron: '*/5 * * * *' 
+    - cron: '*/5 * * * *' # runs at 12:00 UTC everyday
 
 jobs:
   build:
