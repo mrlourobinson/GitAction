@@ -9,7 +9,8 @@ print("Today's date: " + str(datetime))
 
 rand = np.random.randint(0,1000)
 
-row = [datetime, rand]
+row = [{'date':datetime, 
+       'rand':rand}]
 
 df = pd.DataFrame(row)
 
