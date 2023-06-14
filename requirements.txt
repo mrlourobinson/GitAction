@@ -1,2 +1,8 @@
 numpy==1.23.1
 pandas==1.4.3
+xarray==0.21.1
+regionmask
+xipfile
+cdsapi
+netcdf
+h5netcdf
